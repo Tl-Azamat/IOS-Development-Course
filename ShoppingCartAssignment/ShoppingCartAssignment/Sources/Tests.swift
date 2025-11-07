@@ -83,8 +83,8 @@ class Tests {
             assert(order.items.count == 1)
             assert(order.total == cart.total)
             print("Order created successfully with total: \(order.total)")
+            
         }
+        
     }
-    
 }
-
