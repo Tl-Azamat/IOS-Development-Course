@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BC01E862EE0654B00356D9D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1BC01E852EE0654B00356D9D /* Kingfisher */; };
+		1BC01E8F2EE06C1400356D9D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1BC01E8E2EE06C1400356D9D /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BC01E5B2EE0614300356D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC01E3C2EE0614200356D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC01E432EE0614200356D9D;
+			remoteInfo = AdvancedHeroRandomizer;
+		};
+		1BC01E652EE0614300356D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC01E3C2EE0614200356D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC01E432EE0614200356D9D;
+			remoteInfo = AdvancedHeroRandomizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BC01E442EE0614200356D9D /* AdvancedHeroRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedHeroRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC01E5A2EE0614300356D9D /* AdvancedHeroRandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedHeroRandomizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC01E642EE0614300356D9D /* AdvancedHeroRandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedHeroRandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1BC01E6C2EE0614300356D9D /* Exceptions for "AdvancedHeroRandomizer" folder in "AdvancedHeroRandomizer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1BC01E432EE0614200356D9D /* AdvancedHeroRandomizer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1BC01E462EE0614200356D9D /* AdvancedHeroRandomizer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1BC01E6C2EE0614300356D9D /* Exceptions for "AdvancedHeroRandomizer" folder in "AdvancedHeroRandomizer" target */,
+			);
+			path = AdvancedHeroRandomizer;
+			sourceTree = "<group>";
+		};
+		1BC01E5D2EE0614300356D9D /* AdvancedHeroRandomizerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AdvancedHeroRandomizerTests;
+			sourceTree = "<group>";
+		};
+		1BC01E672EE0614300356D9D /* AdvancedHeroRandomizerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AdvancedHeroRandomizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BC01E412EE0614200356D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC01E862EE0654B00356D9D /* Kingfisher in Frameworks */,
+				1BC01E8F2EE06C1400356D9D /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC01E572EE0614300356D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC01E612EE0614300356D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BC01E3B2EE0614200356D9D = {
+			isa = PBXGroup;
+			children = (
+				1BC01E462EE0614200356D9D /* AdvancedHeroRandomizer */,
+				1BC01E5D2EE0614300356D9D /* AdvancedHeroRandomizerTests */,
+				1BC01E672EE0614300356D9D /* AdvancedHeroRandomizerUITests */,
+				1BC01E452EE0614200356D9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BC01E452EE0614200356D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC01E442EE0614200356D9D /* AdvancedHeroRandomizer.app */,
+				1BC01E5A2EE0614300356D9D /* AdvancedHeroRandomizerTests.xctest */,
+				1BC01E642EE0614300356D9D /* AdvancedHeroRandomizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BC01E432EE0614200356D9D /* AdvancedHeroRandomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC01E6D2EE0614300356D9D /* Build configuration list for PBXNativeTarget "AdvancedHeroRandomizer" */;
+			buildPhases = (
+				1BC01E402EE0614200356D9D /* Sources */,
+				1BC01E412EE0614200356D9D /* Frameworks */,
+				1BC01E422EE0614200356D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1BC01E462EE0614200356D9D /* AdvancedHeroRandomizer */,
+			);
+			name = AdvancedHeroRandomizer;
+			packageProductDependencies = (
+				1BC01E852EE0654B00356D9D /* Kingfisher */,
+				1BC01E8E2EE06C1400356D9D /* Alamofire */,
+			);
+			productName = AdvancedHeroRandomizer;
+			productReference = 1BC01E442EE0614200356D9D /* AdvancedHeroRandomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BC01E592EE0614300356D9D /* AdvancedHeroRandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC01E722EE0614300356D9D /* Build configuration list for PBXNativeTarget "AdvancedHeroRandomizerTests" */;
+			buildPhases = (
+				1BC01E562EE0614300356D9D /* Sources */,
+				1BC01E572EE0614300356D9D /* Frameworks */,
+				1BC01E582EE0614300356D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BC01E5C2EE0614300356D9D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1BC01E5D2EE0614300356D9D /* AdvancedHeroRandomizerTests */,
+			);
+			name = AdvancedHeroRandomizerTests;
+			packageProductDependencies = (
+			);
+			productName = AdvancedHeroRandomizerTests;
+			productReference = 1BC01E5A2EE0614300356D9D /* AdvancedHeroRandomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BC01E632EE0614300356D9D /* AdvancedHeroRandomizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC01E752EE0614300356D9D /* Build configuration list for PBXNativeTarget "AdvancedHeroRandomizerUITests" */;
+			buildPhases = (
+				1BC01E602EE0614300356D9D /* Sources */,
+				1BC01E612EE0614300356D9D /* Frameworks */,
+				1BC01E622EE0614300356D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BC01E662EE0614300356D9D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1BC01E672EE0614300356D9D /* AdvancedHeroRandomizerUITests */,
+			);
+			name = AdvancedHeroRandomizerUITests;
+			packageProductDependencies = (
+			);
+			productName = AdvancedHeroRandomizerUITests;
+			productReference = 1BC01E642EE0614300356D9D /* AdvancedHeroRandomizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BC01E3C2EE0614200356D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1BC01E432EE0614200356D9D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1BC01E592EE0614300356D9D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1BC01E432EE0614200356D9D;
+					};
+					1BC01E632EE0614300356D9D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1BC01E432EE0614200356D9D;
+					};
+				};
+			};
+			buildConfigurationList = 1BC01E3F2EE0614200356D9D /* Build configuration list for PBXProject "AdvancedHeroRandomizer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BC01E3B2EE0614200356D9D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1BC01E842EE0648800356D9D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				1BC01E8D2EE06C1400356D9D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1BC01E452EE0614200356D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BC01E432EE0614200356D9D /* AdvancedHeroRandomizer */,
+				1BC01E592EE0614300356D9D /* AdvancedHeroRandomizerTests */,
+				1BC01E632EE0614300356D9D /* AdvancedHeroRandomizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BC01E422EE0614200356D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC01E582EE0614300356D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC01E622EE0614300356D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BC01E402EE0614200356D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC01E562EE0614300356D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC01E602EE0614300356D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BC01E5C2EE0614300356D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC01E432EE0614200356D9D /* AdvancedHeroRandomizer */;
+			targetProxy = 1BC01E5B2EE0614300356D9D /* PBXContainerItemProxy */;
+		};
+		1BC01E662EE0614300356D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC01E432EE0614200356D9D /* AdvancedHeroRandomizer */;
+			targetProxy = 1BC01E652EE0614300356D9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BC01E6E2EE0614300356D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdvancedHeroRandomizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AdvancedHeroRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BC01E6F2EE0614300356D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdvancedHeroRandomizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AdvancedHeroRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BC01E702EE0614300356D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BC01E712EE0614300356D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BC01E732EE0614300356D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AdvancedHeroRandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedHeroRandomizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedHeroRandomizer";
+			};
+			name = Debug;
+		};
+		1BC01E742EE0614300356D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AdvancedHeroRandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedHeroRandomizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedHeroRandomizer";
+			};
+			name = Release;
+		};
+		1BC01E762EE0614300356D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AdvancedHeroRandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvancedHeroRandomizer;
+			};
+			name = Debug;
+		};
+		1BC01E772EE0614300356D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AdvancedHeroRandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvancedHeroRandomizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BC01E3F2EE0614200356D9D /* Build configuration list for PBXProject "AdvancedHeroRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC01E702EE0614300356D9D /* Debug */,
+				1BC01E712EE0614300356D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC01E6D2EE0614300356D9D /* Build configuration list for PBXNativeTarget "AdvancedHeroRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC01E6E2EE0614300356D9D /* Debug */,
+				1BC01E6F2EE0614300356D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC01E722EE0614300356D9D /* Build configuration list for PBXNativeTarget "AdvancedHeroRandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC01E732EE0614300356D9D /* Debug */,
+				1BC01E742EE0614300356D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC01E752EE0614300356D9D /* Build configuration list for PBXNativeTarget "AdvancedHeroRandomizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC01E762EE0614300356D9D /* Debug */,
+				1BC01E772EE0614300356D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1BC01E842EE0648800356D9D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
+		1BC01E8D2EE06C1400356D9D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1BC01E852EE0654B00356D9D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BC01E842EE0648800356D9D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		1BC01E8E2EE06C1400356D9D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BC01E8D2EE06C1400356D9D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1BC01E3C2EE0614200356D9D /* Project object */;
+}
